@@ -56,22 +56,23 @@ const c2_img_2 = 'https://images.unsplash.com/photo-1695605117941-e9130a0369ad?i
   width: 1280px;
   max-height: 1600px;
   margin: 0;
+  margin-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-inline: 2px rgba(36, 36, 36, .5) solid;
   color: white;
 }
 
 #bigarticle {
   box-sizing: border-box;
   margin: 0;
-  padding: 50px;
+  padding: 0px;
 }
 
 #smallarticles {
   box-sizing: border-box;
   margin: 0;
   padding: 50px;
+  padding-right: 0;
   display: grid;
   grid-template-rows: 350px 350px;
   grid-template-columns: 620px;

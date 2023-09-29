@@ -15,6 +15,7 @@ import {ref} from 'vue'
 
 <style scoped>
     #navigator {
+        margin-block: 10px;
         display: flex;
         flex-direction: row nowrap;
         justify-content: space-around;

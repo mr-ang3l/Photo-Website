@@ -56,13 +56,9 @@ const c2_img_2 = 'https://images.unsplash.com/photo-1695605117941-e9130a0369ad?i
   width: 1280px;
   max-height: 1600px;
   margin: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: #242424;
-  border: solid 2px #242424;
-  border-top: solid 2px #cecece;
+  border-inline: 2px rgba(36, 36, 36, .5) solid;
   color: white;
 }
 
@@ -95,7 +91,6 @@ const c2_img_2 = 'https://images.unsplash.com/photo-1695605117941-e9130a0369ad?i
   gap: 25px;
   display: flex;
   flex-direction: row nowrap;
-  background: #242424;
   color: white;
 }
 

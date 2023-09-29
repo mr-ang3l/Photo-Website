@@ -66,5 +66,7 @@ const s = ref(props.source);
   align-items: center;
   font-size: 1.5em;
   font-family: MuseoModerno;
+  background-color: whitesmoke;
+  color: black;
 }
 </style>

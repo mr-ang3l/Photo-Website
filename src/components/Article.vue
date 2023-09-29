@@ -65,5 +65,7 @@ const s = ref(props.source);
   display: flex;
   justify-content: start;
   align-items: center;
+  background-color: whitesmoke;
+  color: black;
 }
 </style>

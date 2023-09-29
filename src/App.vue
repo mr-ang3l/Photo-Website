@@ -1,6 +1,7 @@
 <script setup>
 import FrontPage from './components/FrontPage.vue';
 import Main from './components/Main.vue';
+import Nav from './components/Nav.vue';
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import Main from './components/Main.vue';
       <h1 id="main-behind">윈도우즈</h1>
       <h1 id="main-title">윈도우즈</h1>
       <FrontPage />
+      <Nav />
       <Main />
   </div>
 </template>

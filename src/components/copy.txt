@@ -1,0 +1,18 @@
+  <section id="wrapper">
+    <div id="bigarticle">
+      <Article title="Hola" :source='photo' />
+    </div>
+    <div id="articles">
+      <Article title="Hola" :source='photo' />
+      <Article title="Hola" :source='photo' />
+    </div>
+  </section>
+
+
+    <div id="bigarticle">
+      <div id="example">w</div>
+    </div>
+    <div id="articles">
+      <div id="example">w</div>
+      <div id="example">w</div>
+    </div>

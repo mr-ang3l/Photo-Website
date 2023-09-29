@@ -64,6 +64,7 @@ const c2_img_2 = 'https://images.unsplash.com/photo-1695605117941-e9130a0369ad?i
 
 #bigarticle {
   box-sizing: border-box;
+  height: 800px;
   margin: 0;
   padding: 0px;
 }
@@ -74,7 +75,7 @@ const c2_img_2 = 'https://images.unsplash.com/photo-1695605117941-e9130a0369ad?i
   padding: 50px;
   padding-right: 0;
   display: grid;
-  grid-template-rows: 350px 350px;
+  grid-template-rows: 400px 400px;
   grid-template-columns: 620px;
   gap: 10px;
 }

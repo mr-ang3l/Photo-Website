@@ -29,6 +29,7 @@ const c2_img_2 =
 </script>
 
 <template>
+  <h1 id="title">Best Of The Week</h1>
   <section id="frontP-wrapper">
     <div id="bigarticle">
       <Article class="item" title="Nathan Rogers" :source="fp_img_1" />
@@ -38,6 +39,7 @@ const c2_img_2 =
       <S_Article class="item" title="Daniel Lee" :source="fp_img_3" />
     </div>
   </section>
+  <h1 id="title">Recent Uploads</h1>
   <section id="art-wrapper">
     <div id="body_articles_column_1">
       <Article class="item" title="Daniel J. Schwarz" :source="c1_img_1" />
@@ -53,6 +55,16 @@ const c2_img_2 =
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+
+#title {
+  width: 100%;
+  margin: 1rem;
+  margin-left: 0;
+  padding: 0;
+  font-size: 5em;
+  text-align: start;
+  background-color: #213547;
+}
 
 #frontP-wrapper {
   box-sizing: border-box;

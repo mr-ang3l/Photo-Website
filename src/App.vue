@@ -7,7 +7,7 @@ import Nav from './components/Nav.vue';
 <template>
   <div id="main">
       <h1 id="main-behind">윈도우즈</h1>
-      <h1 id="main-title">윈도우즈</h1>
+      <h1 id="main-title"  class="scale-up-ver-center">윈도우즈</h1>
       <FrontPage />
       <Nav />
       <Main />

@@ -57,10 +57,11 @@ const c2_img_2 =
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
 
 #title {
-  width: 100%;
+  width: fit-content;
   margin: 1rem;
   margin-left: 0;
   padding: 0;
+  padding-inline: 10px;
   font-size: 5em;
   text-align: start;
   background-color: #213547;
